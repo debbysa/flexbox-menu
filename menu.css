@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #56727c;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  padding: 5px 15px;
+  font-size: 1em;
+  color: white;
+}
+
+.item + .item {
+  margin-left: 5px;
+}
+
+.item .item_selected {
+  color: #ffffff;
+  background-color: #415f69;
+  border-radius: 10px;
+}
+
+.headerLogo {
+  font-size: 20px;
+  line-height: 0;
+  color: white;
+}
+
+.headerButton {
+  cursor: pointer;
+}

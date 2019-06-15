@@ -1,13 +1,13 @@
 .container > div {
   padding: 10px;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
   color: #ffeead;
 }
 
 html,
 body {
-  background-color: #ffeead;
+  /* background-color: #ffeead; */
   margin: 10px;
 }
 
